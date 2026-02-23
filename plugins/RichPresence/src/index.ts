@@ -31,7 +31,9 @@ function createDefaultSelection(): Activity {
       _enabled: false,
       start: pluginStartSince,
     },
-    assets: {},
+    assets: {
+  large_image: "dylwan_daniel_caesar",
+    }
     buttons: [{}, {}],
   };
 }
